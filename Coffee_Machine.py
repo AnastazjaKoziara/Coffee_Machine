@@ -10,7 +10,7 @@ class CoffeeMachine:
         if CoffeeMachine.state == "initial":
             if user_input == "buy":
                 CoffeeMachine.state = "buying"
-                print("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:")
+                print("What do you want to buy? 1 - espresso, 2 - latte machiatto, 3 - , back - to main menu:")
             elif user_input == "remaining":
                 self.print_summary()
                 print("Write action (buy, fill, take, remaining, exit):")
